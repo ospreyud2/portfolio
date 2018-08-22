@@ -167,7 +167,7 @@ p {font-family:"Roboto Thin";/*poppins*/}
 /*#blog p {color: whitesmoke; #363636;}*/
 
 /*---------------------------------------videos-------------------------------------*/
-#videos {height: 1600px;background-color: #25201f;}
+#videos {height: 1300px;background-color: #25201f;}
 #videos h1{color: #f2f2f2;}
 #watch-wrapper {width: 1170px;height:600px;margin:0 auto;padding-bottom:50px; }
 /*.video-thumbnail {width: 280px;height: 200px;background-color:pink;float:left;margin:5px;text-align: center; vertical-align:middle;display:table-cell; }*/
@@ -183,8 +183,8 @@ p {font-family:"Roboto Thin";/*poppins*/}
 #contact-wrapper
 .inpbox {width: 600px;margin-bottom: 20px;text-align: center;}
 .ibox {width: 600px;margin-bottom: 10px;text-align: center;}
-#message-box {width: 600px; height: 154px;}
-#submit {margin-top: 20px;background-color:#29201f; opacity: 0.95;/*#292929;*//*rgba(41, 207, 163, 1)*/; color:white; height: 50px;border:0px;}
+#message-box {width: 613px; height: 154px;}
+#submit {width: 614px;margin-top: 20px;background-color:#29201f; opacity: 0.95;/*#292929;*//*rgba(41, 207, 163, 1)*/; color:white; height: 50px;border:0px;}
 #fmessage {color: green; font-style: bold;font-family: none;}
 #div1wrapper {background-color: white;margin:0;}
 #div1 {width: 1140px;height:250px; background-color: #fe4918;opacity: 0.95;/*rgba(41, 207, 163, 1)*/;margin: 0 auto;top: 60px;position: relative;padding-bottom:20px;}

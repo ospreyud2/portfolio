@@ -128,7 +128,7 @@
 	<div id="personal-image-wrapper">	
 		<div id="personal-image" class="wow bounceInLeft" data-wow-delay="300ms" data-wow-duration="1000ms">
 			<div id="personal-message">
-				<!--<p><h1>ABHISHEEK LAKRA</h1></p>
+				<!--<p><h1>ABHISHEK LAKRA</h1></p>
 				<p><h3>Painter/animation artist</h3></p>-->
 			</div>
 		</div>
@@ -884,9 +884,7 @@
 			
 			
 	  		<div id="watch-wrapper">
-	  			<iframe id="player" name="player" width="1155" height="600" src="https://www.youtube.com/embed/lhsx6ei38m0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-	  			</iframe>
-	  			<!--raja<iframe width="1155" height="600" src="https://www.youtube.com/embed/S7yi1YicNV0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+	  			<iframe width="1155" height="600" src="https://www.youtube.com/embed/S7yi1YicNV0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	  		</div>
 	  		
 	  		<div id="thumbnail-title">
@@ -894,55 +892,19 @@
 	  		</div>
 	  		<!--using youtube video embedded links.other links dont work-->
 	  		<div id="thumbnail-wrapper">
+	  			<!--painting aeroplane-->
 	  			<div class="video-thumbnail" style="background: url(./images/t1.png);background-size: cover;"  >
 					<a  href="https://www.youtube.com/embed/1OdDOMFvL0w" target="player"><img  src="./images/play-icon.png" alt=""></a>
 	  			</div>
-	  			<!--<div class="video-thumbnail" style="background: url(./images/t1.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/S7yi1YicNV0" target="player"><img  src="./images/play-icon.png" alt=""></a>
-	  			</div>-->
 	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t2.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/1OdDOMFvL0w" target="player"><img src="./images/play-icon.png" alt=""></a>
+	  			<!--water color painting rey-->
+	  			<div class="video-thumbnail" style="background: url(./images/t2.png);background-size: cover;"  >
+					<a  href="https://www.youtube.com/embed/wqccwKrPLIw" target="player"><img src="./images/play-icon.png" alt=""></a>
 	  			</div>
 	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t3.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t4.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t5.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t6.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t7.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t8.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t9.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t10.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t11.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
-	  			</div>
-	  			
-	  			<div class="video-thumbnail" style="background: url(./images/t12.jpg);background-size: cover;"  >
-					<a  href="https://www.youtube.com/embed/XOImgofFhpE" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
+	  			<!--painting chitrkoot-->
+	  			<div class="video-thumbnail" style="background: url(./images/t3.png);background-size: cover;"  >
+					<a  href="https://www.youtube.com/embed/S7yi1YicNV0" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
 	  			</div>
 	  			
 	  			
