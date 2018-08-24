@@ -22,8 +22,18 @@
 		<link rel="stylesheet" href="./css/animate.css" type="text/css">
 		<title>Abhishek || Painter/Artist</title>
 		<script type="text/javascript" src="./scripts/jquery-3.3.1.min.js"></script>
+		<script src="./scripts/jquery-1.11.0.min.js"></script>
+                <script type="text/javascript">
+                         $(window).load(function(){
+                         	jQuery("#body-wrapper").removeClass("hideall");
+                         	jQuery(".loading-wrapper").addClass("hideall");
+
+						});
+					</script>
+
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
+
 				var navinitpos=jQuery("#navigation").offset().top;
 				jQuery("#navigation").wrap('<div class "nav-placeholder"></div>');
 				jQuery(".nav-placeholder").height(jQuery("#navigation").outerHeight);
@@ -105,9 +115,28 @@
 				
 			});
 		</script>
+			<style>
+			.loading-wrapper
+			{
+  				position: absolute;
+  				margin: auto;
+  				top: 0;
+  				right: 0;
+  				bottom: 0;
+  				left: 0;
+  				width: 400px;
+  				height: 400px;
+  				border-radius: 3px;
+  				text-align: center;
+				}
+		</style>
 	</head>
-	<body>
-	
+		
+<body>
+	<div class="loading-wrapper">
+			<img src="./images/loading.gif">
+	</div>	
+	<div id="body-wrapper" class="hideall">
 	<nav id="navigation">
 		<div id="name">
 			Abhishek
@@ -928,7 +957,7 @@
 	  			<p  id="write-to-me-desc" class="sub-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 	  		</div>
 	  		<form id="contact" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-	  			<input name="fname" class="ibox wow bounceInLeft" placeholder="Name"  data-wow-delay="300ms" data-wow-duration="1000ms" required>
+	  			<input name="fname" class="ibox wow bounceInLeft" placeholder="Name"  data-wow-delay="300ms" data-wow-duration="1000ms"required>
 	  			<br>
 	  			<input name="femail" class="ibox wow bounceInLeft" placeholder="Email" type="email"  data-wow-delay="350ms" 
 data-wow-duration="1000ms" required><br>
@@ -1001,5 +1030,6 @@ data-wow-duration="1000ms" required><br>
     <script>
           new WOW().init();
     </script>
+		</div> <!--end of body-wrpper div element-->
 	</body>
 </html>
