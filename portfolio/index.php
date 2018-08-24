@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--NEW UPDATE-->
 		<?php
 			$message = "";
 			if($_SERVER['REQUEST_METHOD'] == "POST")
@@ -15,21 +16,25 @@
 				$cmsg = $cmsg . "Message: " . $fmessage;
 				$to_mail = 'ospreyud2@gmail.com';
 				mail($to_mail,$subject,$cmsg);
-				$message = "$fname, mail sent!";
+				$message = "Thanks for contacting me!";
 			}
 		?>
-		<link rel="stylesheet" href="./css/test.css" type="text/css">
-		<link rel="stylesheet" href="./css/animate.css" type="text/css">
+		<link rel="stylesheet" href="./css/test.css" type="text/css"><!-- main styling css file-->
+		<link rel="stylesheet" href="./css/lightbox.min.css" type="text/css"><!-- image gallery with lightbox css file-->
+		<link rel="stylesheet" href="./css/animate.css" type="text/css"><!--scroll animation css file-->
 		<title>Abhishek || Painter/Artist</title>
 		<script type="text/javascript" src="./scripts/jquery-3.3.1.min.js"></script>
 		<script src="./scripts/jquery-1.11.0.min.js"></script>
-                <script type="text/javascript">
-                         $(window).load(function(){
-                         	jQuery("#body-wrapper").removeClass("hideall");
-                         	jQuery(".loading-wrapper").addClass("hideall");
 
-						});
-					</script>
+		<script type="text/javascript">
+            $(window).load(function(){
+                jQuery("#body-wrapper").removeClass("hideall");
+                    		
+
+
+
+			});
+		</script>
 
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
@@ -133,9 +138,9 @@
 	</head>
 		
 <body>
-	<div class="loading-wrapper">
-			<img src="./images/loading.gif">
-	</div>	
+	<!--<div class="loading-wrapper">
+		<img src="./images/loading.gif">
+	</div>-->	
 	<div id="body-wrapper" class="hideall">
 	<nav id="navigation">
 		<div id="name">
@@ -154,11 +159,10 @@
 			</ul>
 		</div>
 	</nav>
+	
 	<div id="personal-image-wrapper">	
 		<div id="personal-image" class="wow bounceInLeft" data-wow-delay="300ms" data-wow-duration="1000ms">
 			<div id="personal-message">
-				<!--<p><h1>ABHISHEK LAKRA</h1></p>
-				<p><h3>Painter/animation artist</h3></p>-->
 			</div>
 		</div>
 	</div>
@@ -270,7 +274,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/oil/train_digital.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/oil/train_digital.jpg" data-lightbox="gallery" ><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -281,7 +285,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/oil/train_oilpainting_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/oil/train_oilpainting_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -292,7 +296,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/oil/train_oilpainting.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/oil/train_oilpainting.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -305,7 +309,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/pastel/train_aclyric.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/pastel/train_aclyric.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -318,7 +322,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/re-journey.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/re-journey.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -329,7 +333,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/Brando_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/Brando_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -341,7 +345,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/bullet_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/bullet_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -353,7 +357,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/bullet_watercolor_2.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/bullet_watercolor_2.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -365,7 +369,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/car_watercolor.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/car_watercolor.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -378,7 +382,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/car_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/car_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -390,7 +394,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/countryside_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/countryside_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -402,7 +406,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/Finalgoodbuy_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/Finalgoodbuy_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -415,7 +419,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/Handsup_watercolor_2.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/Handsup_watercolor_2.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -427,7 +431,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/station_watercolor.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/station_watercolor.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -439,7 +443,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/Still_vantage_watercolor.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/Still_vantage_watercolor.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -451,7 +455,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/thegate_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/thegate_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -463,7 +467,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/tractor_watercolor_3.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/tractor_watercolor_3.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -475,7 +479,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/train_watercolor.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/train_watercolor.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -487,7 +491,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/train_watercolor_1.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/train_watercolor_1.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -499,7 +503,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/train_watercolor_2.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/train_watercolor_2.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -511,7 +515,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/train_watercolor_3.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/train_watercolor_3.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -523,7 +527,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/Start_watercolor_2.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/Star_watercolor_2.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -535,7 +539,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/mighty_chitrkoot.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/mighty_chitrkoot.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -547,7 +551,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/painting_chitrkoot.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/painting_chitrkoot.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -559,7 +563,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/painting_chitrkoot_v01.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/painting_chitrkoot_v01.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -571,7 +575,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/royal.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/royal.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -583,7 +587,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/T800.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/T800.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -595,7 +599,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/water/the_nomadic.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/water/the_nomadic.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -609,7 +613,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Aprilla_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Aprilla_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -621,7 +625,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Arnold_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Arnold_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -633,7 +637,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/car_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/car_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -645,7 +649,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Disaster_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Disaster_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -657,7 +661,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Distopia_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Distopia_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -669,7 +673,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Flyinghood_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Flyinghood_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -681,7 +685,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Godfather_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Godfather_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -693,7 +697,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Horse_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Horse_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -705,7 +709,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/lifeled_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/lifeled_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -717,7 +721,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/lone_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/lone_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -729,7 +733,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Pirates_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Pirates_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -741,7 +745,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/RD350_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/RD350_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -753,7 +757,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/simplelife_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/simplelife_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -765,7 +769,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Starwars_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Starwars_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -777,7 +781,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/ZERO_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/ZERO_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -790,7 +794,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/Cliff_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/Cliff_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -803,7 +807,7 @@
 					<div class="cover">
 						<div class="cover-wrapper">
 							<p>View Work</p>
-							<a href="./images/painting/sketch/train_sketch.jpg" target="_blank"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
+							<a href="./images/painting/sketch/train_sketch.jpg" data-lightbox="gallery"><img src="./icon/zoom-icon.png" alt="" style="width: 60px;height: 60px;"></a>
 				
 						</div>
 					</div>
@@ -913,7 +917,8 @@
 			
 			
 	  		<div id="watch-wrapper">
-	  			<iframe width="1155" height="600" src="https://www.youtube.com/embed/S7yi1YicNV0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  			<iframe id="player" name="player" width="1155" height="600" src="https://www.youtube.com/embed/1OdDOMFvL0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+	  			</iframe>
 	  		</div>
 	  		
 	  		<div id="thumbnail-title">
@@ -922,6 +927,9 @@
 	  		<!--using youtube video embedded links.other links dont work-->
 	  		<div id="thumbnail-wrapper">
 	  			<!--painting aeroplane-->
+	  			<!--<div class="video-thumbnail" style="background: url(./images/t1.png);background-size: cover;"  >
+					<a  href="https://www.youtube.com/embed/1OdDOMFvL0w" target="player"><img  src="./images/play-icon.png" alt=""></a>
+	  			</div>-->
 	  			<div class="video-thumbnail" style="background: url(./images/t1.png);background-size: cover;"  >
 					<a  href="https://www.youtube.com/embed/1OdDOMFvL0w" target="player"><img  src="./images/play-icon.png" alt=""></a>
 	  			</div>
@@ -963,7 +971,7 @@
 data-wow-duration="1000ms" required><br>
 	  			<input name="fsubject" class="ibox wow bounceInLeft" placeholder="Subject" data-wow-delay="400ms" data-wow-duration="1000ms" required><br>
 	  			<textarea name="fmessage" id="message-box" class="wow bounceInLeft" placeholder="" data-wow-delay="450ms" data-wow-duration="1000ms" required></textarea><br>
-	  			<button id="submit" class="ibox wow bounceInLeft" data-wow-delay="500ms" data-wow-duration="1000ms">Submit</button>
+	  			<button id="submit" class="ibox wow bounceInLeft" data-wow-delay="500ms" data-wow-duration="1000ms" >Submit</button>
 	  			<p id="fmessage"><?php echo $message; ?></p>
 	  		</form>
 		</div>
@@ -1015,7 +1023,7 @@ data-wow-duration="1000ms" required><br>
 		
 		<div id="div2">
 			<div id="div2-wrapper">
-				<div id="copyright">Copyright @ 2018 Ritu Raj Lakra</div>
+				<div id="copyright">Under development process</div>
 				<div id="social-media">
 					<a href="https://www.facebook.com/raja.lakra.1029" title="follow on facebook" target="_blank"><img src="./images/facebook-icon-small.png" alt=""></a>
 					<a href="https://www.youtube.com/channel/UCAK0PIpLTa0QJZarpozGBUA?view_as=subscriber" title="follow on youtube" target="_blank"><img src="./images/youtube-icon.png" alt="""></a>
@@ -1031,5 +1039,47 @@ data-wow-duration="1000ms" required><br>
           new WOW().init();
     </script>
 		</div> <!--end of body-wrpper div element-->
+	<script src="./scripts/lightbox2-master/dist/js/lightbox-plus-jquery.min.js">
+		// Description: image gallery with lightbox script
+	</script>
+	<script type="text/javascript">
+				// Description: smooth scrolling script
+				// Select all links with hashes
+		$('a[href*="#"]')
+		  // Remove links that don't actually link to anything
+		  .not('[href="#"]')
+		  .not('[href="#0"]')
+		  .click(function(event) {
+		    // On-page links
+		    if (
+		      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+		      && 
+		      location.hostname == this.hostname
+		    ) {
+		      // Figure out element to scroll to
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		      // Does a scroll target exist?
+		      if (target.length) {
+		        // Only prevent default if animation is actually gonna happen
+		        event.preventDefault();
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000, function() {
+		          // Callback after animation
+		          // Must change focus!
+		          var $target = $(target);
+		          $target.focus();
+		          if ($target.is(":focus")) { // Checking if the target was focused
+		            return false;
+		          } else {
+		            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		            $target.focus(); // Set focus again
+		          };
+		        });
+		      }
+		    }
+		  });
+	</script>	
 	</body>
 </html>
