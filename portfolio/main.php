@@ -236,7 +236,7 @@
 			<!--oil category-->
 			<div id="gallery-wrapper">
 				<div class="gallery oil-cat">
-					<img src="./images/painting/oil/train_digital.jpg"  alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_digital.jpg"  alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -247,7 +247,7 @@
 					</div>
 				</div>
 				<div class="gallery oil-cat">
-					<img src="./images/painting/oil/train_oilpainting_1.jpg"  alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_oilpainting_1.jpg"  alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -258,7 +258,7 @@
 					</div>
 				</div>
 				<div class="gallery oil-cat">
-					<img src="./images/painting/oil/train_oilpainting.jpg"  alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_oilpainting.jpg"  alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -271,7 +271,7 @@
 			
 				<!--pastel category-->
 				<div class="gallery pastel-cat">
-					<img src="./images/painting/pastel/train_aclyric.jpg" alt="">
+					<img src="./images/painting/compressed/train_aclyric.jpg" alt="">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -284,7 +284,7 @@
 
 				<!--water category-->
 				<div class="gallery water-cat">
-					<img src="./images/painting/water/re-journey.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/re-journey.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -295,7 +295,7 @@
 					</div>
 				</div>
 				<div class="gallery water-cat">
-					<img src="./images/painting/water/Brando_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Brando_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -307,7 +307,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/bullet_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/bullet_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -319,7 +319,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/bullet_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/bullet_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -331,7 +331,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/car_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/car_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -344,7 +344,7 @@
 
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/car_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/car_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -356,7 +356,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/countryside_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/countryside_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -368,7 +368,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/Finalgoodbuy_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Finalgoodbuy_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -381,7 +381,7 @@
 
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/Handsup_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Handsup_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -393,7 +393,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/station_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/station_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -405,7 +405,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/Still_vantage_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Still_vantage_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -417,7 +417,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/thegate_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/thegate_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -429,7 +429,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/tractor_watercolor_3.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/tractor_watercolor_3.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -441,7 +441,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/train_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_watercolor.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -453,7 +453,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/train_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_watercolor_1.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -465,7 +465,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/train_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -477,7 +477,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/train_watercolor_3.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_watercolor_3.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -489,7 +489,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/Star_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Star_watercolor_2.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -501,7 +501,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/mighty_chitrkoot.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/mighty_chitrkoot.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -513,7 +513,7 @@
 				</div>
 					<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/painting_chitrkoot.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/painting_chitrkoot.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -525,7 +525,7 @@
 				</div>
 					<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/painting_chitrkoot_v01.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/painting_chitrkoot_v01.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -537,7 +537,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/royal.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/royal.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -549,7 +549,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/T800.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/T800.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -561,7 +561,7 @@
 				</div>
 				<div class="gallery water-cat">	
 			
-					<img src="./images/painting/water/the_nomadic.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/the_nomadic.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -575,7 +575,7 @@
 				<!--sketch category-->
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Aprilla_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Aprilla_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -587,7 +587,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Arnold_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Arnold_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -599,7 +599,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/car_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/car_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -611,7 +611,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Disaster_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Disaster_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -623,7 +623,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Distopia_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Distopia_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -635,7 +635,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Flyinghood_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Flyinghood_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -647,7 +647,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Godfather_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Godfather_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -659,7 +659,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Horse_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Horse_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -671,7 +671,7 @@
 				</div>
 					<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/lifeled_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/lifeled_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -683,7 +683,7 @@
 				</div>
 					<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/lone_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/lone_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -695,7 +695,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Pirates_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Pirates_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -707,7 +707,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/RD350_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/RD350_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -719,7 +719,7 @@
 				</div>
 					<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/simplelife_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/simplelife_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -731,7 +731,7 @@
 				</div>
 					<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Starwars_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Starwars_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -743,7 +743,7 @@
 				</div>
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/ZERO_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/ZERO_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -756,7 +756,7 @@
 
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/Cliff_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/Cliff_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -769,7 +769,7 @@
 
 				<div class="gallery sketch-cat">	
 			
-					<img src="./images/painting/sketch/train_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
+					<img src="./images/painting/compressed/train_sketch.jpg" alt="" class="wow fadeInLeft" data-wow-delay="600ms">
 			
 					<div class="cover">
 						<div class="cover-wrapper">
@@ -988,10 +988,10 @@ data-wow-duration="1000ms" required><br>
 			<div id="div2-wrapper">
 				<div id="copyright">Copyright @ 2018 Ritu Raj Lakra</div>
 				<div id="social-media">
-					<img src="./images/facebook-icon-small.png" alt="">
-					<img src="./images/twitter-icon-small.png" alt="">
-					<img src="./images/pinterest-icon-small.png" alt="">
-					<img src="./images/Instagram-icon-small.png" alt="">
+					<a href="https://www.facebook.com/raja.lakra.1029" title="follow on facebook" target="_blank"><img src="./images/facebook-icon-small.png" alt=""></a>
+					<a href="https://www.youtube.com/channel/UCAK0PIpLTa0QJZarpozGBUA?view_as=subscriber" title="follow on youtube" target="_blank"><img src="./images/youtube-icon.png" alt="""></a>
+					<a><img src="./images/twitter-icon-small.png" alt=""></a>
+					<a href="https://www.instagram.com/raja.painting.thinkhead/" title="follow on twitter" target="_blank"><img src="./images/Instagram-icon-small.png" alt=""></a>
 				</div>
 			</div>
 		</div>	
