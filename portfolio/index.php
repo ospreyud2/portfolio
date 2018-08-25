@@ -141,11 +141,11 @@
 	<!--<div class="loading-wrapper">
 		<img src="./images/loading.gif">
 	</div>-->	
-	<div id="body-wrapper" class="hideall">
+	<!--<div id="body-wrapper" class="hideall">-->
 	<nav id="navigation">
 		<div id="name">
-			Abhishek
-			<!--<img src="./images/name-logo.png" alt="">-->
+			<!--Abhishek-->
+			<img src="./images/logo.png" alt="">
 		</div>
 		<div id="menu">
 			<ul>
@@ -1038,8 +1038,9 @@ data-wow-duration="1000ms" required><br>
     <script>
           new WOW().init();
     </script>
-		</div> <!--end of body-wrpper div element-->
-	<script src="./scripts/lightbox2-master/dist/js/lightbox-plus-jquery.min.js">
+		<!--</div>--> <!--end of body-wrpper div element-->
+	<!--<script src="./scripts/lightbox2-master/dist/js/lightbox-plus-jquery.min.js">-->
+		<script src="./scripts/lightbox-plus-jquery.min.js">
 		// Description: image gallery with lightbox script
 	</script>
 	<script type="text/javascript">
