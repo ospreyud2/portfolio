@@ -29,7 +29,9 @@
 		<script type="text/javascript">
             $(window).load(function(){
                 jQuery("#body-wrapper").removeClass("hideall");
-                    		
+			$.post("./log.php",{},function(data, status){
+				alert(data);
+			});
 
 
 
