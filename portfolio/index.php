@@ -25,14 +25,20 @@
 		<title>Abhishek || Painter/Artist</title>
 		<script type="text/javascript" src="./scripts/jquery-3.3.1.min.js"></script>
 		<script src="./scripts/jquery-1.11.0.min.js"></script>
+	    <script src="./sdf.js"></script>
 
 		<script type="text/javascript">
             $(window).load(function(){
-                jQuery("#body-wrapper").removeClass("hideall");
-			$.post("./log.php",{},function(data, status){
-				alert(data);
-			});
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function(){
+                    if(this.readyState == 4 && this.status == 200)
+                    {
+                    }
+                };
+                xhttp.open("GET", "./log.php", true);
+                xhttp.send();
 
+                $("body").removeClass("stop-scrolling");
 
 
 			});
@@ -139,7 +145,7 @@
 		</style>
 	</head>
 		
-<body>
+<body class="stop-scrolling">
 	<!--<div class="loading-wrapper">
 		<img src="./images/loading.gif">
 	</div>-->	
@@ -932,17 +938,17 @@
 	  			<!--<div class="video-thumbnail" style="background: url(./images/t1.png);background-size: cover;"  >
 					<a  href="https://www.youtube.com/embed/1OdDOMFvL0w" target="player"><img  src="./images/play-icon.png" alt=""></a>
 	  			</div>-->
-	  			<div class="video-thumbnail" style="background: url(./images/t1.png);background-size: cover;"  >
+	  			<div class="video-thumbnail" style="background: url(./images/t1.jpg);background-size: cover;"  >
 					<a  href="https://www.youtube.com/embed/1OdDOMFvL0w" target="player"><img  src="./images/play-icon.png" alt=""></a>
 	  			</div>
 	  			
 	  			<!--water color painting rey-->
-	  			<div class="video-thumbnail" style="background: url(./images/t2.png);background-size: cover;"  >
+	  			<div class="video-thumbnail" style="background: url(./images/t2.jpg);background-size: cover;"  >
 					<a  href="https://www.youtube.com/embed/wqccwKrPLIw" target="player"><img src="./images/play-icon.png" alt=""></a>
 	  			</div>
 	  			
 	  			<!--painting chitrkoot-->
-	  			<div class="video-thumbnail" style="background: url(./images/t3.png);background-size: cover;"  >
+	  			<div class="video-thumbnail" style="background: url(./images/t3.jpg);background-size: cover;"  >
 					<a  href="https://www.youtube.com/embed/S7yi1YicNV0" target="player"><img id="vid-1" src="./images/play-icon.png" alt=""></a>
 	  			</div>
 	  			
@@ -1036,7 +1042,6 @@ data-wow-duration="1000ms" required><br>
 		</div>	
    </div>
 		
-	<script src="./sdf.js"></script>
     <script>
           new WOW().init();
     </script>
